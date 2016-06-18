@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		264E85F11D15B11500C79DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F01D15B11500C79DA9 /* AppDelegate.swift */; };
-		264E85F31D15B11500C79DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F21D15B11500C79DA9 /* ViewController.swift */; };
+		264E85F31D15B11500C79DA9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F21D15B11500C79DA9 /* HomePageViewController.swift */; };
 		264E85F61D15B11500C79DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E85F41D15B11500C79DA9 /* Main.storyboard */; };
 		264E85F81D15B11500C79DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264E85F71D15B11500C79DA9 /* Assets.xcassets */; };
 		264E85FB1D15B11500C79DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E85F91D15B11500C79DA9 /* LaunchScreen.storyboard */; };
 		264E86061D15B11500C79DA9 /* Gracing_UpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E86051D15B11500C79DA9 /* Gracing_UpTests.swift */; };
 		264E86111D15B11600C79DA9 /* Gracing_UpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E86101D15B11600C79DA9 /* Gracing_UpUITests.swift */; };
+		264E861F1D15B14B00C79DA9 /* wireframes + timeline in Resources */ = {isa = PBXBuildFile; fileRef = 264E861E1D15B14B00C79DA9 /* wireframes + timeline */; };
+		264E86211D15B2A400C79DA9 /* CivilityGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E86201D15B2A400C79DA9 /* CivilityGoalViewController.swift */; };
+		264E86231D15B30D00C79DA9 /* InspirationQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E86221D15B30D00C79DA9 /* InspirationQuoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		264E85ED1D15B11500C79DA9 /* Gracing Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gracing Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		264E85F01D15B11500C79DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		264E85F21D15B11500C79DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		264E85F21D15B11500C79DA9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		264E85F51D15B11500C79DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		264E85F71D15B11500C79DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264E85FA1D15B11500C79DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		264E860C1D15B11600C79DA9 /* Gracing UpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gracing UpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		264E86101D15B11600C79DA9 /* Gracing_UpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gracing_UpUITests.swift; sourceTree = "<group>"; };
 		264E86121D15B11600C79DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264E861E1D15B14B00C79DA9 /* wireframes + timeline */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "wireframes + timeline"; sourceTree = "<group>"; };
+		264E86201D15B2A400C79DA9 /* CivilityGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilityGoalViewController.swift; sourceTree = "<group>"; };
+		264E86221D15B30D00C79DA9 /* InspirationQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspirationQuoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		264E85EF1D15B11500C79DA9 /* Gracing Up */ = {
 			isa = PBXGroup;
 			children = (
+				264E861E1D15B14B00C79DA9 /* wireframes + timeline */,
 				264E85F01D15B11500C79DA9 /* AppDelegate.swift */,
-				264E85F21D15B11500C79DA9 /* ViewController.swift */,
+				264E85F21D15B11500C79DA9 /* HomePageViewController.swift */,
 				264E85F41D15B11500C79DA9 /* Main.storyboard */,
+				264E86221D15B30D00C79DA9 /* InspirationQuoteViewController.swift */,
+				264E86201D15B2A400C79DA9 /* CivilityGoalViewController.swift */,
 				264E85F71D15B11500C79DA9 /* Assets.xcassets */,
 				264E85F91D15B11500C79DA9 /* LaunchScreen.storyboard */,
 				264E85FC1D15B11500C79DA9 /* Info.plist */,
@@ -229,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264E861F1D15B14B00C79DA9 /* wireframes + timeline in Resources */,
 				264E85FB1D15B11500C79DA9 /* LaunchScreen.storyboard in Resources */,
 				264E85F81D15B11500C79DA9 /* Assets.xcassets in Resources */,
 				264E85F61D15B11500C79DA9 /* Main.storyboard in Resources */,
@@ -256,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264E85F31D15B11500C79DA9 /* ViewController.swift in Sources */,
+				264E86231D15B30D00C79DA9 /* InspirationQuoteViewController.swift in Sources */,
+				264E86211D15B2A400C79DA9 /* CivilityGoalViewController.swift in Sources */,
+				264E85F31D15B11500C79DA9 /* HomePageViewController.swift in Sources */,
 				264E85F11D15B11500C79DA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

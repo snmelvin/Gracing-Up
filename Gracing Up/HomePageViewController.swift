@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomePageViewController.swift
 //  Gracing Up
 //
 //  Created by Sarah Melvin on 6/18/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomePageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
