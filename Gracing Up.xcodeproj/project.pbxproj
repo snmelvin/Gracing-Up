@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264E85F11D15B11500C79DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F01D15B11500C79DA9 /* AppDelegate.swift */; };
+		264E85F31D15B11500C79DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F21D15B11500C79DA9 /* ViewController.swift */; };
+		264E85F61D15B11500C79DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E85F41D15B11500C79DA9 /* Main.storyboard */; };
+		264E85F81D15B11500C79DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264E85F71D15B11500C79DA9 /* Assets.xcassets */; };
+		264E85FB1D15B11500C79DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E85F91D15B11500C79DA9 /* LaunchScreen.storyboard */; };
+		264E86061D15B11500C79DA9 /* Gracing_UpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E86051D15B11500C79DA9 /* Gracing_UpTests.swift */; };
+		264E86111D15B11600C79DA9 /* Gracing_UpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E86101D15B11600C79DA9 /* Gracing_UpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264E86021D15B11500C79DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264E85E51D15B11500C79DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264E85EC1D15B11500C79DA9;
+			remoteInfo = "Gracing Up";
+		};
+		264E860D1D15B11600C79DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264E85E51D15B11500C79DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264E85EC1D15B11500C79DA9;
+			remoteInfo = "Gracing Up";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264E85ED1D15B11500C79DA9 /* Gracing Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gracing Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264E85F01D15B11500C79DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		264E85F21D15B11500C79DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		264E85F51D15B11500C79DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		264E85F71D15B11500C79DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		264E85FA1D15B11500C79DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		264E85FC1D15B11500C79DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264E86011D15B11500C79DA9 /* Gracing UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gracing UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264E86051D15B11500C79DA9 /* Gracing_UpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gracing_UpTests.swift; sourceTree = "<group>"; };
+		264E86071D15B11600C79DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264E860C1D15B11600C79DA9 /* Gracing UpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gracing UpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264E86101D15B11600C79DA9 /* Gracing_UpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gracing_UpUITests.swift; sourceTree = "<group>"; };
+		264E86121D15B11600C79DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264E85EA1D15B11500C79DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264E85FE1D15B11500C79DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264E86091D15B11600C79DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264E85E41D15B11500C79DA9 = {
+			isa = PBXGroup;
+			children = (
+				264E85EF1D15B11500C79DA9 /* Gracing Up */,
+				264E86041D15B11500C79DA9 /* Gracing UpTests */,
+				264E860F1D15B11600C79DA9 /* Gracing UpUITests */,
+				264E85EE1D15B11500C79DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264E85EE1D15B11500C79DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264E85ED1D15B11500C79DA9 /* Gracing Up.app */,
+				264E86011D15B11500C79DA9 /* Gracing UpTests.xctest */,
+				264E860C1D15B11600C79DA9 /* Gracing UpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264E85EF1D15B11500C79DA9 /* Gracing Up */ = {
+			isa = PBXGroup;
+			children = (
+				264E85F01D15B11500C79DA9 /* AppDelegate.swift */,
+				264E85F21D15B11500C79DA9 /* ViewController.swift */,
+				264E85F41D15B11500C79DA9 /* Main.storyboard */,
+				264E85F71D15B11500C79DA9 /* Assets.xcassets */,
+				264E85F91D15B11500C79DA9 /* LaunchScreen.storyboard */,
+				264E85FC1D15B11500C79DA9 /* Info.plist */,
+			);
+			path = "Gracing Up";
+			sourceTree = "<group>";
+		};
+		264E86041D15B11500C79DA9 /* Gracing UpTests */ = {
+			isa = PBXGroup;
+			children = (
+				264E86051D15B11500C79DA9 /* Gracing_UpTests.swift */,
+				264E86071D15B11600C79DA9 /* Info.plist */,
+			);
+			path = "Gracing UpTests";
+			sourceTree = "<group>";
+		};
+		264E860F1D15B11600C79DA9 /* Gracing UpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				264E86101D15B11600C79DA9 /* Gracing_UpUITests.swift */,
+				264E86121D15B11600C79DA9 /* Info.plist */,
+			);
+			path = "Gracing UpUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264E85EC1D15B11500C79DA9 /* Gracing Up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264E86151D15B11600C79DA9 /* Build configuration list for PBXNativeTarget "Gracing Up" */;
+			buildPhases = (
+				264E85E91D15B11500C79DA9 /* Sources */,
+				264E85EA1D15B11500C79DA9 /* Frameworks */,
+				264E85EB1D15B11500C79DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gracing Up";
+			productName = "Gracing Up";
+			productReference = 264E85ED1D15B11500C79DA9 /* Gracing Up.app */;
+			productType = "com.apple.product-type.application";
+		};
+		264E86001D15B11500C79DA9 /* Gracing UpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264E86181D15B11600C79DA9 /* Build configuration list for PBXNativeTarget "Gracing UpTests" */;
+			buildPhases = (
+				264E85FD1D15B11500C79DA9 /* Sources */,
+				264E85FE1D15B11500C79DA9 /* Frameworks */,
+				264E85FF1D15B11500C79DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264E86031D15B11500C79DA9 /* PBXTargetDependency */,
+			);
+			name = "Gracing UpTests";
+			productName = "Gracing UpTests";
+			productReference = 264E86011D15B11500C79DA9 /* Gracing UpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		264E860B1D15B11600C79DA9 /* Gracing UpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264E861B1D15B11600C79DA9 /* Build configuration list for PBXNativeTarget "Gracing UpUITests" */;
+			buildPhases = (
+				264E86081D15B11600C79DA9 /* Sources */,
+				264E86091D15B11600C79DA9 /* Frameworks */,
+				264E860A1D15B11600C79DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264E860E1D15B11600C79DA9 /* PBXTargetDependency */,
+			);
+			name = "Gracing UpUITests";
+			productName = "Gracing UpUITests";
+			productReference = 264E860C1D15B11600C79DA9 /* Gracing UpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264E85E51D15B11500C79DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "ERP Resources";
+				TargetAttributes = {
+					264E85EC1D15B11500C79DA9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					264E86001D15B11500C79DA9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 264E85EC1D15B11500C79DA9;
+					};
+					264E860B1D15B11600C79DA9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 264E85EC1D15B11500C79DA9;
+					};
+				};
+			};
+			buildConfigurationList = 264E85E81D15B11500C79DA9 /* Build configuration list for PBXProject "Gracing Up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264E85E41D15B11500C79DA9;
+			productRefGroup = 264E85EE1D15B11500C79DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264E85EC1D15B11500C79DA9 /* Gracing Up */,
+				264E86001D15B11500C79DA9 /* Gracing UpTests */,
+				264E860B1D15B11600C79DA9 /* Gracing UpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264E85EB1D15B11500C79DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E85FB1D15B11500C79DA9 /* LaunchScreen.storyboard in Resources */,
+				264E85F81D15B11500C79DA9 /* Assets.xcassets in Resources */,
+				264E85F61D15B11500C79DA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264E85FF1D15B11500C79DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264E860A1D15B11600C79DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264E85E91D15B11500C79DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E85F31D15B11500C79DA9 /* ViewController.swift in Sources */,
+				264E85F11D15B11500C79DA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264E85FD1D15B11500C79DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E86061D15B11500C79DA9 /* Gracing_UpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264E86081D15B11600C79DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E86111D15B11600C79DA9 /* Gracing_UpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264E86031D15B11500C79DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264E85EC1D15B11500C79DA9 /* Gracing Up */;
+			targetProxy = 264E86021D15B11500C79DA9 /* PBXContainerItemProxy */;
+		};
+		264E860E1D15B11600C79DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264E85EC1D15B11500C79DA9 /* Gracing Up */;
+			targetProxy = 264E860D1D15B11600C79DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		264E85F41D15B11500C79DA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264E85F51D15B11500C79DA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		264E85F91D15B11500C79DA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264E85FA1D15B11500C79DA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264E86131D15B11600C79DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		264E86141D15B11600C79DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264E86161D15B11600C79DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gracing Up/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erpr.Gracing-Up";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		264E86171D15B11600C79DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gracing Up/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erpr.Gracing-Up";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		264E86191D15B11600C79DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gracing UpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erpr.Gracing-UpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gracing Up.app/Gracing Up";
+			};
+			name = Debug;
+		};
+		264E861A1D15B11600C79DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gracing UpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erpr.Gracing-UpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gracing Up.app/Gracing Up";
+			};
+			name = Release;
+		};
+		264E861C1D15B11600C79DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gracing UpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erpr.Gracing-UpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gracing Up";
+			};
+			name = Debug;
+		};
+		264E861D1D15B11600C79DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gracing UpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erpr.Gracing-UpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gracing Up";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264E85E81D15B11500C79DA9 /* Build configuration list for PBXProject "Gracing Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264E86131D15B11600C79DA9 /* Debug */,
+				264E86141D15B11600C79DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264E86151D15B11600C79DA9 /* Build configuration list for PBXNativeTarget "Gracing Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264E86161D15B11600C79DA9 /* Debug */,
+				264E86171D15B11600C79DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		264E86181D15B11600C79DA9 /* Build configuration list for PBXNativeTarget "Gracing UpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264E86191D15B11600C79DA9 /* Debug */,
+				264E861A1D15B11600C79DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		264E861B1D15B11600C79DA9 /* Build configuration list for PBXNativeTarget "Gracing UpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264E861C1D15B11600C79DA9 /* Debug */,
+				264E861D1D15B11600C79DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264E85E51D15B11500C79DA9 /* Project object */;
+}
