@@ -134,7 +134,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pim-kS-Z7O">
-                                <rect key="frame" x="208" y="539" width="67" height="60.5"/>
+                                <rect key="frame" x="208" y="539" width="67" height="61"/>
                                 <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="nnf-jr-d7L" kind="show" id="sN9-lf-Eac"/>
@@ -388,11 +388,11 @@
         <image name="MyPhotos_App_Bubble.jpg" width="1193" height="1309"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jdf-Rd-XqB"/>
-        <segue reference="kyh-y9-iSw"/>
-        <segue reference="uro-zX-pwZ"/>
-        <segue reference="DIb-q4-0q6"/>
+        <segue reference="Dut-Nl-z5l"/>
         <segue reference="yCf-Sp-8F9"/>
-        <segue reference="TdI-iK-DIV"/>
+        <segue reference="dD1-Zi-bm9"/>
+        <segue reference="erU-R2-brR"/>
+        <segue reference="geR-ym-7Zm"/>
+        <segue reference="xax-Ar-wJw"/>
     </inferredMetricsTieBreakers>
 </document>
