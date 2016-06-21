@@ -72,10 +72,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="kyh-y9-iSw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cey-QC-11C">
-                                <rect key="frame" x="45" y="484" width="76" height="30"/>
-                                <state key="normal" title="My Photos"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3em-xV-W63">
                                 <rect key="frame" x="173" y="484" width="89" height="30"/>
                                 <state key="normal" title="My Journal"/>
@@ -101,6 +97,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cey-QC-11C">
+                                <rect key="frame" x="45" y="484" width="76" height="30"/>
+                                <state key="normal" title="My Photos"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
