@@ -496,6 +496,7 @@
 				264E86171D15B11600C79DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		264E86181D15B11600C79DA9 /* Build configuration list for PBXNativeTarget "Gracing UpTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				264E861A1D15B11600C79DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		264E861B1D15B11600C79DA9 /* Build configuration list for PBXNativeTarget "Gracing UpUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				264E861D1D15B11600C79DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

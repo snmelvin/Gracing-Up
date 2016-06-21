@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -43,6 +43,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="245" y="349"/>
+        </scene>
+        <!--Mission Statement-->
+        <scene sceneID="LrZ-h3-Eyf">
+            <objects>
+                <viewController title="Mission Statement" id="sLp-Gq-pZg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Mj-56-2ik"/>
+                        <viewControllerLayoutGuide type="bottom" id="1uR-Im-x4M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YmQ-0T-IwQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sk-SW-tiQ">
+                                <rect key="frame" x="60" y="43" width="46" height="30"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="kyh-y9-iSw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cey-QC-11C">
+                                <rect key="frame" x="45" y="484" width="76" height="30"/>
+                                <state key="normal" title="My Photos"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3em-xV-W63">
+                                <rect key="frame" x="173" y="484" width="89" height="30"/>
+                                <state key="normal" title="My Journal"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lef-ct-FaW">
+                                <rect key="frame" x="428" y="484" width="125" height="30"/>
+                                <state key="normal" title="Inspiration Quote"/>
+                                <connections>
+                                    <segue destination="h3G-HP-dJ0" kind="show" id="DIb-q4-0q6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seE-QS-J03">
+                                <rect key="frame" x="308" y="484" width="88" height="30"/>
+                                <state key="normal" title="Civility Goal"/>
+                                <connections>
+                                    <segue destination="nnf-jr-d7L" kind="show" id="RlD-gp-h6R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7hk-ZW-TZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="1008"/>
         </scene>
         <!--CivilityGoal-->
         <scene sceneID="bzr-gH-pca">
@@ -173,7 +222,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Nuz-vQ-4jS"/>
-        <segue reference="3GP-zM-gQR"/>
+        <segue reference="kyh-y9-iSw"/>
+        <segue reference="DIb-q4-0q6"/>
+        <segue reference="RlD-gp-h6R"/>
     </inferredMetricsTieBreakers>
 </document>
