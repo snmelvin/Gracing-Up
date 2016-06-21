@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 class CivilityGoalViewController: UIViewController {
     
     override func viewDidLoad() {
@@ -21,5 +22,20 @@ class CivilityGoalViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func determineTime(start: NSDate) -> String{
+        let now = NSDate()
+        var dates = [NSDate]()
+        for i in 0...51{
+            let newDate = start.dateByAddingTimeInterval(60*60*24*(Double(i) * 7.0))
+            dates.append(newDate)
+        }
+        for i in 1...51{
+            let result = dates[i].earlierDate(now)
+            if(result == now){
+                return String(i - 1)
+            }
+        }
+        return String(51)
+    }
     
 }
