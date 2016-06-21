@@ -94,6 +94,13 @@
                                     <segue destination="nnf-jr-d7L" kind="show" id="RlD-gp-h6R"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cr1-f8-61a">
+                                <rect key="frame" x="157" y="43" width="319" height="428"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Welcome to the #GracingUp movement.  This app allows a participant to walk with a hospitable heart of servitude and kindness by elevating one another with weekly inspirations that include civility practices, a journal, and photos to record your progress.  As you touch the spirits of others by practicing civility - your gifts transpire into the spirits of others.  We welcome you to be a part of this movement of service to the world.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -362,11 +369,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3GP-zM-gQR"/>
-        <segue reference="Dut-Nl-z5l"/>
-        <segue reference="yCf-Sp-8F9"/>
-        <segue reference="jdf-Rd-XqB"/>
-        <segue reference="TdI-iK-DIV"/>
+        <segue reference="kyh-y9-iSw"/>
         <segue reference="uro-zX-pwZ"/>
+        <segue reference="DIb-q4-0q6"/>
+        <segue reference="RlD-gp-h6R"/>
+        <segue reference="TdI-iK-DIV"/>
+        <segue reference="jdf-Rd-XqB"/>
     </inferredMetricsTieBreakers>
 </document>
