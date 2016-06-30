@@ -10,6 +10,11 @@
 		0741637C1D18D0A5001482FC /* MissionStatementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741637B1D18D0A5001482FC /* MissionStatementViewController.swift */; };
 		0741637E1D18D285001482FC /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741637D1D18D285001482FC /* JournalViewController.swift */; };
 		074163801D18D29D001482FC /* PhotoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741637F1D18D29D001482FC /* PhotoPageViewController.swift */; };
+		26465D531D24FDD80039BC05 /* CivilityGoal_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D521D24FDD80039BC05 /* CivilityGoal_App_Bubble.jpg */; };
+		26465D5A1D24FE460039BC05 /* GracingUp_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D561D24FE460039BC05 /* GracingUp_App_Bubble.jpg */; };
+		26465D5B1D24FE460039BC05 /* InspirationQuote_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D571D24FE460039BC05 /* InspirationQuote_App_Bubble.jpg */; };
+		26465D5C1D24FE460039BC05 /* MyJournal_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D581D24FE460039BC05 /* MyJournal_App_Bubble.jpg */; };
+		26465D5D1D24FE460039BC05 /* MyPhotos_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D591D24FE460039BC05 /* MyPhotos_App_Bubble.jpg */; };
 		264E85F11D15B11500C79DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F01D15B11500C79DA9 /* AppDelegate.swift */; };
 		264E85F31D15B11500C79DA9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F21D15B11500C79DA9 /* HomePageViewController.swift */; };
 		264E85F61D15B11500C79DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E85F41D15B11500C79DA9 /* Main.storyboard */; };
@@ -43,6 +48,11 @@
 		0741637B1D18D0A5001482FC /* MissionStatementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionStatementViewController.swift; sourceTree = "<group>"; };
 		0741637D1D18D285001482FC /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		0741637F1D18D29D001482FC /* PhotoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPageViewController.swift; sourceTree = "<group>"; };
+		26465D521D24FDD80039BC05 /* CivilityGoal_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CivilityGoal_App_Bubble.jpg; sourceTree = "<group>"; };
+		26465D561D24FE460039BC05 /* GracingUp_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GracingUp_App_Bubble.jpg; sourceTree = "<group>"; };
+		26465D571D24FE460039BC05 /* InspirationQuote_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InspirationQuote_App_Bubble.jpg; sourceTree = "<group>"; };
+		26465D581D24FE460039BC05 /* MyJournal_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MyJournal_App_Bubble.jpg; sourceTree = "<group>"; };
+		26465D591D24FE460039BC05 /* MyPhotos_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MyPhotos_App_Bubble.jpg; sourceTree = "<group>"; };
 		264E85ED1D15B11500C79DA9 /* Gracing Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gracing Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		264E85F01D15B11500C79DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		264E85F21D15B11500C79DA9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +119,11 @@
 		264E85EF1D15B11500C79DA9 /* Gracing Up */ = {
 			isa = PBXGroup;
 			children = (
+				26465D561D24FE460039BC05 /* GracingUp_App_Bubble.jpg */,
+				26465D571D24FE460039BC05 /* InspirationQuote_App_Bubble.jpg */,
+				26465D581D24FE460039BC05 /* MyJournal_App_Bubble.jpg */,
+				26465D591D24FE460039BC05 /* MyPhotos_App_Bubble.jpg */,
+				26465D521D24FDD80039BC05 /* CivilityGoal_App_Bubble.jpg */,
 				264E861E1D15B14B00C79DA9 /* wireframes + timeline */,
 				264E85F01D15B11500C79DA9 /* AppDelegate.swift */,
 				264E85F21D15B11500C79DA9 /* HomePageViewController.swift */,
@@ -247,7 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26465D5A1D24FE460039BC05 /* GracingUp_App_Bubble.jpg in Resources */,
+				26465D531D24FDD80039BC05 /* CivilityGoal_App_Bubble.jpg in Resources */,
 				264E861F1D15B14B00C79DA9 /* wireframes + timeline in Resources */,
+				26465D5C1D24FE460039BC05 /* MyJournal_App_Bubble.jpg in Resources */,
+				26465D5B1D24FE460039BC05 /* InspirationQuote_App_Bubble.jpg in Resources */,
+				26465D5D1D24FE460039BC05 /* MyPhotos_App_Bubble.jpg in Resources */,
 				264E85FB1D15B11500C79DA9 /* LaunchScreen.storyboard in Resources */,
 				264E85F81D15B11500C79DA9 /* Assets.xcassets in Resources */,
 				264E85F61D15B11500C79DA9 /* Main.storyboard in Resources */,
