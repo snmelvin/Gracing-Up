@@ -18,29 +18,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTm-d0-v2e">
-                                <rect key="frame" x="144" y="104" width="94" height="30"/>
-                                <state key="normal" title="Civilty Goal"/>
+                                <rect key="frame" x="29" y="114" width="129" height="118"/>
+                                <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="nnf-jr-d7L" kind="show" id="yCf-Sp-8F9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEq-p1-2Nq">
-                                <rect key="frame" x="288" y="234" width="92" height="30"/>
-                                <state key="normal" title="Gracing Up"/>
+                                <rect key="frame" x="148" y="152" width="165" height="160"/>
+                                <state key="normal" backgroundImage="GracingUp_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="sLp-Gq-pZg" kind="show" id="uro-zX-pwZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiC-ah-Bwe">
-                                <rect key="frame" x="125" y="393" width="94" height="30"/>
-                                <state key="normal" title="My Journal"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiC-ah-Bwe">
+                                <rect key="frame" x="29" y="309" width="159" height="152"/>
+                                <state key="normal" backgroundImage="MyJournal_App_Bubble.jpg">
+                                    <color key="titleColor" red="0.044409610331058502" green="0.64186513423919678" blue="0.9245874285697937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ICL-Ph-pRQ" kind="show" id="jdf-Rd-XqB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ7-JH-8y9">
-                                <rect key="frame" x="420" y="455" width="82" height="30"/>
-                                <state key="normal" title="Photo Page"/>
+                                <rect key="frame" x="204" y="329" width="165" height="172"/>
+                                <state key="normal" backgroundImage="MyPhotos_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="bgn-LM-WqH" kind="show" id="TdI-iK-DIV"/>
                                 </connections>
@@ -66,33 +68,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sk-SW-tiQ">
-                                <rect key="frame" x="60" y="43" width="46" height="30"/>
+                                <rect key="frame" x="20" y="36" width="46" height="30"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="kyh-y9-iSw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cey-QC-11C">
-                                <rect key="frame" x="45" y="484" width="76" height="30"/>
-                                <state key="normal" title="My Photos"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3em-xV-W63">
-                                <rect key="frame" x="173" y="484" width="89" height="30"/>
-                                <state key="normal" title="My Journal"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lef-ct-FaW">
-                                <rect key="frame" x="428" y="484" width="125" height="30"/>
-                                <state key="normal" title="Inspiration Quote"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lef-ct-FaW">
+                                <rect key="frame" x="288" y="542" width="59" height="59"/>
+                                <state key="normal" title="Inspiration Quote" image="InspirationQuote_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="h3G-HP-dJ0" kind="show" id="DIb-q4-0q6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seE-QS-J03">
-                                <rect key="frame" x="308" y="484" width="88" height="30"/>
-                                <state key="normal" title="Civility Goal"/>
+                                <rect key="frame" x="208" y="545" width="61" height="53"/>
+                                <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="nnf-jr-d7L" kind="show" id="RlD-gp-h6R"/>
                                 </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cr1-f8-61a">
+                                <rect key="frame" x="33" y="197" width="204" height="256"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Welcome to the #GracingUp movement.  This app allows a participant to walk with a hospitable heart of servitude and kindness by elevating one another with weekly inspirations that include civility practices, a journal, and photos to record your progress.  As you touch the spirits of others by practicing civility - your gifts transpire into the spirits of others.  We welcome you to be a part of this movement of service to the world.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cey-QC-11C">
+                                <rect key="frame" x="20" y="550" width="55" height="50"/>
+                                <state key="normal" backgroundImage="MyPhotos_App_Bubble.jpg"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GracingUp_App_Bubble.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pOv-uY-T0M">
+                                <rect key="frame" x="191" y="69" width="156" height="137"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3em-xV-W63">
+                                <rect key="frame" x="120" y="550" width="54" height="51"/>
+                                <state key="normal" backgroundImage="MyJournal_App_Bubble.jpg"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -115,38 +127,46 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5C-dP-oQE">
-                                <rect key="frame" x="130" y="523" width="105" height="30"/>
-                                <state key="normal" title="Gracing Up"/>
+                                <rect key="frame" x="110" y="540" width="54" height="52"/>
+                                <state key="normal" backgroundImage="GracingUp_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="sLp-Gq-pZg" kind="show" id="6vO-0w-NGZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pim-kS-Z7O">
-                                <rect key="frame" x="266" y="523" width="87" height="30"/>
-                                <state key="normal" title="Civility Goal"/>
+                                <rect key="frame" x="208" y="539" width="67" height="60.5"/>
+                                <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="nnf-jr-d7L" kind="show" id="sN9-lf-Eac"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oj6-Vf-fFH">
-                                <rect key="frame" x="398" y="523" width="133" height="30"/>
-                                <state key="normal" title="Inspiration Quote"/>
-                                <connections>
-                                    <segue destination="h3G-HP-dJ0" kind="show" id="SGn-jL-7LU"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvM-tJ-ATS">
-                                <rect key="frame" x="68" y="54" width="46" height="30"/>
+                                <rect key="frame" x="20" y="28" width="46" height="30"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="qke-zK-ZN4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtB-uv-bvN">
-                                <rect key="frame" x="31" y="523" width="76" height="30"/>
-                                <state key="normal" title="My Photos"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtB-uv-bvN">
+                                <rect key="frame" x="20" y="539" width="57" height="61"/>
+                                <state key="normal" title="My Photos" image="MyPhotos_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="bgn-LM-WqH" kind="show" id="CAv-zy-470"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MyJournal_App_Bubble.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mt4-1v-Ppn">
+                                <rect key="frame" x="182" y="28" width="159" height="152"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text Here" borderStyle="roundedRect" placeholder="Text Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xGf-gX-rW5">
+                                <rect key="frame" x="48" y="171" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oj6-Vf-fFH">
+                                <rect key="frame" x="289" y="541" width="62" height="57"/>
+                                <state key="normal" backgroundImage="InspirationQuote_App_Bubble.jpg"/>
+                                <connections>
+                                    <segue destination="h3G-HP-dJ0" kind="show" id="SGn-jL-7LU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -170,38 +190,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdm-Ts-sjh">
-                                <rect key="frame" x="32" y="510" width="125" height="30"/>
-                                <state key="normal" title="Inspiration Quote"/>
+                                <rect key="frame" x="14" y="544" width="59" height="56"/>
+                                <state key="normal" backgroundImage="InspirationQuote_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="h3G-HP-dJ0" kind="show" id="d3H-Sh-CDp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5CV-b0-oBg">
-                                <rect key="frame" x="180" y="510" width="94" height="30"/>
-                                <state key="normal" title="My Journal"/>
+                                <rect key="frame" x="109" y="544" width="58" height="57"/>
+                                <state key="normal" backgroundImage="MyJournal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="ICL-Ph-pRQ" kind="show" id="SJW-mc-6kN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPu-9a-bFc">
-                                <rect key="frame" x="329" y="510" width="109" height="30"/>
-                                <state key="normal" title="Civility Goal"/>
+                                <rect key="frame" x="206" y="544" width="75" height="55"/>
+                                <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="nnf-jr-d7L" kind="show" id="XRC-CD-wTj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDO-kj-Hen">
-                                <rect key="frame" x="464" y="510" width="109" height="30"/>
-                                <state key="normal" title="Gracing Up"/>
-                                <connections>
-                                    <segue destination="sLp-Gq-pZg" kind="show" id="cF9-nL-DQd"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRc-hz-pGi">
-                                <rect key="frame" x="71" y="33" width="46" height="30"/>
+                                <rect key="frame" x="20" y="28" width="46" height="30"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="M6V-nS-YSq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MyPhotos_App_Bubble.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Cg-tW-kZk">
+                                <rect key="frame" x="206" y="28" width="166" height="160"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDO-kj-Hen">
+                                <rect key="frame" x="302" y="544" width="60" height="50"/>
+                                <state key="normal" backgroundImage="GracingUp_App_Bubble.jpg"/>
+                                <connections>
+                                    <segue destination="sLp-Gq-pZg" kind="show" id="cF9-nL-DQd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -224,44 +247,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Civility Goal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqR-zo-wwy">
-                                <rect key="frame" x="150" y="155" width="90" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPi-lO-L1G">
-                                <rect key="frame" x="289" y="85" width="118" height="30"/>
-                                <state key="normal" title="Inspiration Quote"/>
-                                <connections>
-                                    <segue destination="h3G-HP-dJ0" kind="show" id="Dut-Nl-z5l"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ol0-lB-elg">
-                                <rect key="frame" x="283" y="289" width="35" height="21"/>
+                                <rect key="frame" x="198" y="333" width="35" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrz-6l-4zE">
-                                <rect key="frame" x="20" y="522" width="73" height="30"/>
-                                <state key="normal" title="My Photos"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrz-6l-4zE">
+                                <rect key="frame" x="12" y="541" width="56" height="59"/>
+                                <state key="normal" title="My Photos" image="MyPhotos_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="bgn-LM-WqH" kind="show" id="erU-R2-brR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUb-es-7tQ">
-                                <rect key="frame" x="150" y="522" width="76" height="30"/>
-                                <state key="normal" title="My Journal"/>
+                                <rect key="frame" x="115" y="547" width="59" height="53"/>
+                                <state key="normal" backgroundImage="MyJournal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="ICL-Ph-pRQ" kind="show" id="geR-ym-7Zm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcu-EC-fkC">
-                                <rect key="frame" x="294" y="522" width="81" height="30"/>
-                                <state key="normal" title="Civility Goal"/>
-                                <connections>
-                                    <segue destination="nnf-jr-d7L" kind="show" id="SMr-2h-b9e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUu-2U-JDs">
@@ -271,9 +274,27 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="dD1-Zi-bm9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPi-lO-L1G">
+                                <rect key="frame" x="241" y="80" width="118" height="115"/>
+                                <state key="normal" backgroundImage="InspirationQuote_App_Bubble.jpg"/>
+                                <connections>
+                                    <segue destination="h3G-HP-dJ0" kind="show" id="Dut-Nl-z5l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Civility_Goal_button" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrN-wg-vRV">
+                                <rect key="frame" x="39" y="137" width="183" height="167"/>
+                                <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcu-EC-fkC">
+                                <rect key="frame" x="215" y="542" width="70" height="58"/>
+                                <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
+                                <connections>
+                                    <segue destination="nnf-jr-d7L" kind="show" id="SMr-2h-b9e"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOG-Mj-59w">
-                                <rect key="frame" x="458" y="522" width="78" height="30"/>
-                                <state key="normal" title="Gracing Up"/>
+                                <rect key="frame" x="326" y="550" width="54" height="48"/>
+                                <state key="normal" backgroundImage="GracingUp_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="sLp-Gq-pZg" kind="show" id="xax-Ar-wJw"/>
                                 </connections>
@@ -298,44 +319,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inspiration Quote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxX-PB-ECQ">
-                                <rect key="frame" x="98" y="176" width="132" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3y-jC-ENt">
-                                <rect key="frame" x="357" y="102" width="81" height="30"/>
-                                <state key="normal" title="Civility Goal"/>
+                                <rect key="frame" x="253" y="81" width="141" height="126"/>
+                                <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="nnf-jr-d7L" kind="show" id="TqB-eU-3e9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5I8-nl-DKc">
-                                <rect key="frame" x="300" y="271" width="47" height="21"/>
+                                <rect key="frame" x="229" y="310" width="47" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDS-pv-hvv">
-                                <rect key="frame" x="169" y="524" width="76" height="30"/>
-                                <state key="normal" title="My Journal"/>
+                                <rect key="frame" x="127" y="550" width="57" height="50"/>
+                                <state key="normal" backgroundImage="MyJournal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="ICL-Ph-pRQ" kind="show" id="Mdc-kE-FmZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGJ-yR-uL5">
-                                <rect key="frame" x="308" y="524" width="81" height="30"/>
-                                <state key="normal" title="Civility Goal"/>
+                                <rect key="frame" x="229" y="544" width="61" height="56"/>
+                                <state key="normal" backgroundImage="CivilityGoal_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="nnf-jr-d7L" kind="show" id="Nuz-vQ-4jS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZ5-dS-gDD">
-                                <rect key="frame" x="477" y="524" width="78" height="30"/>
-                                <state key="normal" title="Gracing Up"/>
-                                <connections>
-                                    <segue destination="sLp-Gq-pZg" kind="show" id="aco-It-DPa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OV2-Dg-C6h">
@@ -346,10 +354,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjc-KM-tf1">
-                                <rect key="frame" x="20" y="524" width="73" height="30"/>
-                                <state key="normal" title="My Photos"/>
+                                <rect key="frame" x="20" y="550" width="57" height="50"/>
+                                <state key="normal" backgroundImage="MyPhotos_App_Bubble.jpg"/>
                                 <connections>
                                     <segue destination="bgn-LM-WqH" kind="show" id="Jz5-Rb-HEo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFy-6u-6Ax">
+                                <rect key="frame" x="39" y="121" width="179" height="181"/>
+                                <state key="normal" backgroundImage="InspirationQuote_App_Bubble.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZ5-dS-gDD">
+                                <rect key="frame" x="331" y="544" width="46" height="47"/>
+                                <state key="normal" backgroundImage="GracingUp_App_Bubble.jpg"/>
+                                <connections>
+                                    <segue destination="sLp-Gq-pZg" kind="show" id="aco-It-DPa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -361,12 +380,19 @@
             <point key="canvasLocation" x="882" y="1001"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CivilityGoal_App_Bubble.jpg" width="1336" height="1262"/>
+        <image name="GracingUp_App_Bubble.jpg" width="1075" height="1075"/>
+        <image name="InspirationQuote_App_Bubble.jpg" width="1270" height="1261"/>
+        <image name="MyJournal_App_Bubble.jpg" width="1184" height="1261"/>
+        <image name="MyPhotos_App_Bubble.jpg" width="1193" height="1309"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3GP-zM-gQR"/>
-        <segue reference="Dut-Nl-z5l"/>
-        <segue reference="yCf-Sp-8F9"/>
-        <segue reference="jdf-Rd-XqB"/>
-        <segue reference="TdI-iK-DIV"/>
-        <segue reference="uro-zX-pwZ"/>
+        <segue reference="M6V-nS-YSq"/>
+        <segue reference="CAv-zy-470"/>
+        <segue reference="SJW-mc-6kN"/>
+        <segue reference="d3H-Sh-CDp"/>
+        <segue reference="XRC-CD-wTj"/>
+        <segue reference="cF9-nL-DQd"/>
     </inferredMetricsTieBreakers>
 </document>
