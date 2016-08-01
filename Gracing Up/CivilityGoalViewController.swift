@@ -12,9 +12,12 @@ import UIKit
 
 class CivilityGoalViewController: UIViewController {
     
+    @IBOutlet weak var goalText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        getGoal()
     }
     
     override func didReceiveMemoryWarning() {
@@ -36,6 +39,27 @@ class CivilityGoalViewController: UIViewController {
             }
         }
         return String(51)
+    }
+    
+    func getGoal() {
+        // get the installDate from nsuserdefaults
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let origDate = defaults.objectForKey("installDate") as! NSDate
+        let weekString = determineTime(origDate)
+        let weekInt :Int? = Int(weekString)
+        
+        // read the civility goals file
+        let location = "/Users/sarah/Desktop/Gracing-Up/Gracing Up/wireframes + timeline/civility-goals.txt"
+        let fileContent = try? NSString(contentsOfFile: location, encoding: NSUTF8StringEncoding) as String
+        
+        // put content of file into an array
+        let newlineChars = NSCharacterSet.newlineCharacterSet()
+        let lines = fileContent!.utf16.split { newlineChars.characterIsMember($0) }.flatMap(String.init)
+
+        // get goal from array
+        let goal = lines[weekInt!]
+        self.goalText.text = goal
+
     }
     
 }

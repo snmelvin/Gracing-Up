@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -247,12 +247,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ol0-lB-elg">
-                                <rect key="frame" x="198" y="333" width="35" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrz-6l-4zE">
                                 <rect key="frame" x="12" y="541" width="56" height="59"/>
                                 <state key="normal" title="My Photos" image="MyPhotos_App_Bubble.jpg"/>
@@ -299,9 +293,18 @@
                                     <segue destination="sLp-Gq-pZg" kind="show" id="xax-Ar-wJw"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="civility-goal-text" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ol0-lB-elg">
+                                <rect key="frame" x="39" y="319" width="325" height="197"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="goalText" destination="ol0-lB-elg" id="psW-mU-klg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L0X-tC-do6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -326,12 +329,6 @@
                                     <segue destination="nnf-jr-d7L" kind="show" id="TqB-eU-3e9"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5I8-nl-DKc">
-                                <rect key="frame" x="229" y="310" width="47" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDS-pv-hvv">
                                 <rect key="frame" x="127" y="550" width="57" height="50"/>
                                 <state key="normal" backgroundImage="MyJournal_App_Bubble.jpg"/>
@@ -371,9 +368,18 @@
                                     <segue destination="sLp-Gq-pZg" kind="show" id="aco-It-DPa"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5I8-nl-DKc">
+                                <rect key="frame" x="39" y="310" width="348" height="216"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="quoteText" destination="5I8-nl-DKc" id="0FP-xL-csx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RIK-Yx-Gja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -388,11 +394,11 @@
         <image name="MyPhotos_App_Bubble.jpg" width="1193" height="1309"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="TqB-eU-3e9"/>
         <segue reference="Dut-Nl-z5l"/>
-        <segue reference="yCf-Sp-8F9"/>
-        <segue reference="dD1-Zi-bm9"/>
-        <segue reference="erU-R2-brR"/>
-        <segue reference="geR-ym-7Zm"/>
-        <segue reference="xax-Ar-wJw"/>
+        <segue reference="Jz5-Rb-HEo"/>
+        <segue reference="aco-It-DPa"/>
+        <segue reference="Mdc-kE-FmZ"/>
+        <segue reference="3GP-zM-gQR"/>
     </inferredMetricsTieBreakers>
 </document>

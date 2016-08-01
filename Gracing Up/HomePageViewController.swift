@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import CoreData
 
 class HomePageViewController: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        if (NSUserDefaults.standardUserDefaults().objectForKey("installDate") == nil) {
+            // case: installDate key has not been created
+            let defaults = NSUserDefaults.standardUserDefaults()
+            defaults.setObject(NSDate(), forKey: "installDate")
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
