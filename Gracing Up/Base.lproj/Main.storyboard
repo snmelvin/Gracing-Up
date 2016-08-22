@@ -114,10 +114,58 @@
             </objects>
             <point key="canvasLocation" x="245" y="1008"/>
         </scene>
+        <!--Journal Entry View Controller-->
+        <scene sceneID="Y5n-ts-1Et">
+            <objects>
+                <viewController storyboardIdentifier="JournalEntryViewController" id="rp4-At-GgB" customClass="JournalEntryViewController" customModule="Gracing_Up" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7QK-rT-tm7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fw3-L2-BhL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Nc-0D-kpV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAe-Jl-Fg9">
+                                <rect key="frame" x="20" y="62" width="330" height="287"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ga7-mv-IaA">
+                                <rect key="frame" x="20" y="357" width="330" height="211"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCA-Ic-Fer">
+                                <rect key="frame" x="320" y="47" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="ICL-Ph-pRQ" kind="show" id="lSJ-uM-qtP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgP-9B-Gj5">
+                                <rect key="frame" x="20" y="20" width="240" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="dateLabel"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="VgP-9B-Gj5" id="sdL-K1-tir"/>
+                        <outlet property="imageView" destination="Ga7-mv-IaA" id="TX7-9w-4uT"/>
+                        <outlet property="textLabel" destination="AAe-Jl-Fg9" id="em6-Lh-U9Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dl7-3c-rUV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-450" y="1637"/>
+        </scene>
         <!--MyJournal-->
         <scene sceneID="Hu7-Dy-GZw">
             <objects>
-                <viewController storyboardIdentifier="MyJournal" title="MyJournal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ICL-Ph-pRQ" customClass="JournalViewController" customModule="Gracing_Up" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyJournal" title="MyJournal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ICL-Ph-pRQ" customClass="JournalViewController" customModule="Gracing_Up" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CyZ-7a-MIL"/>
                         <viewControllerLayoutGuide type="bottom" id="BDl-Cy-UD0"/>
@@ -169,6 +217,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="ICL-Ph-pRQ" id="NVa-Tv-otA"/>
+                                    <outlet property="delegate" destination="ICL-Ph-pRQ" id="X1S-CZ-R8N"/>
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4c-2W-1lD">
@@ -184,11 +233,30 @@
                     <connections>
                         <outlet property="journalTableView" destination="Q1y-WN-g6A" id="NYt-z5-pF3"/>
                         <outlet property="newJournal" destination="L4c-2W-1lD" id="JBY-fS-1Hm"/>
+                        <segue destination="rp4-At-GgB" kind="show" identifier="journalSegue" id="JYL-Hh-eJl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62B-vG-lC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="245" y="1655"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dWY-Zm-fBr">
+            <objects>
+                <viewController id="SDl-yE-7xM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Te-EP-4fD"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Tp-sx-0wh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="knz-xS-Ub3" customClass="EntryAddViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2pG-5p-i5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="2406"/>
         </scene>
         <!--MyPhotos-->
         <scene sceneID="mHV-UG-U93">
@@ -407,11 +475,11 @@
         <image name="MyPhotos_App_Bubble.jpg" width="1193" height="1309"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SGn-jL-7LU"/>
-        <segue reference="Mdc-kE-FmZ"/>
-        <segue reference="CAv-zy-470"/>
-        <segue reference="sN9-lf-Eac"/>
         <segue reference="qke-zK-ZN4"/>
+        <segue reference="Mdc-kE-FmZ"/>
+        <segue reference="SGn-jL-7LU"/>
+        <segue reference="CAv-zy-470"/>
         <segue reference="6vO-0w-NGZ"/>
+        <segue reference="sN9-lf-Eac"/>
     </inferredMetricsTieBreakers>
 </document>
