@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -157,11 +157,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MyJournal_App_Bubble.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mt4-1v-Ppn">
                                 <rect key="frame" x="182" y="28" width="159" height="152"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text Here" borderStyle="roundedRect" placeholder="Text Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xGf-gX-rW5">
-                                <rect key="frame" x="48" y="171" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oj6-Vf-fFH">
                                 <rect key="frame" x="289" y="541" width="62" height="57"/>
                                 <state key="normal" backgroundImage="InspirationQuote_App_Bubble.jpg"/>
@@ -169,9 +164,27 @@
                                     <segue destination="h3G-HP-dJ0" kind="show" id="SGn-jL-7LU"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Q1y-WN-g6A">
+                                <rect key="frame" x="0.0" y="175" width="341" height="358"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ICL-Ph-pRQ" id="NVa-Tv-otA"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4c-2W-1lD">
+                                <rect key="frame" x="20" y="83" width="30" height="30"/>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addJournal:" destination="ICL-Ph-pRQ" eventType="touchUpInside" id="gsT-s2-JS8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="journalTableView" destination="Q1y-WN-g6A" id="NYt-z5-pF3"/>
+                        <outlet property="newJournal" destination="L4c-2W-1lD" id="JBY-fS-1Hm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62B-vG-lC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -394,11 +407,11 @@
         <image name="MyPhotos_App_Bubble.jpg" width="1193" height="1309"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TqB-eU-3e9"/>
-        <segue reference="Dut-Nl-z5l"/>
-        <segue reference="Jz5-Rb-HEo"/>
-        <segue reference="aco-It-DPa"/>
+        <segue reference="SGn-jL-7LU"/>
         <segue reference="Mdc-kE-FmZ"/>
-        <segue reference="3GP-zM-gQR"/>
+        <segue reference="CAv-zy-470"/>
+        <segue reference="sN9-lf-Eac"/>
+        <segue reference="qke-zK-ZN4"/>
+        <segue reference="6vO-0w-NGZ"/>
     </inferredMetricsTieBreakers>
 </document>
