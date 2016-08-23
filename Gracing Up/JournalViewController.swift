@@ -15,7 +15,7 @@ class JournalViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var journalTableView: UITableView!
     var entries = [NSManagedObject]()
-    @IBOutlet weak var newJournal: UIButton!
+//    @IBOutlet weak var newJournal: UIButton!
     var entry = 0
     
     override func viewDidLoad() {
@@ -83,60 +83,60 @@ class JournalViewController: UIViewController, UITableViewDataSource {
     }
     
     
-    @IBAction func addJournal(sender: AnyObject) {
-        let alert = UIAlertController(title: "New Entry",
-                                      message: "Add a new journal entry",
-                                      preferredStyle: .Alert)
-        
-        let saveAction = UIAlertAction(title: "Save",
-                                       style: .Default,
-                                       handler: { (action:UIAlertAction) -> Void in
-                                        
-                                        let textField = alert.textFields!.first
-                                        self.saveEntry(textField!.text!)
-                                        self.journalTableView.reloadData()
-        })
-        
-        let cancelAction = UIAlertAction(title: "Cancel",
-                                         style: .Default) { (action: UIAlertAction) -> Void in
-        }
-        
-        alert.addTextFieldWithConfigurationHandler {
-            (textField: UITextField) -> Void in
-        }
-        
-        alert.addAction(saveAction)
-        alert.addAction(cancelAction)
-        
-        presentViewController(alert,
-                              animated: true,
-                              completion: nil)
-    }
-    
-    func saveEntry(entry: String) {
-        let currentDate = NSDate()
-        
-        let appDelegate =
-            UIApplication.sharedApplication().delegate as! AppDelegate
-        
-        let managedContext = appDelegate.managedObjectContext
-        
-        let entity =  NSEntityDescription.entityForName("JournalEntry",
-                                                        inManagedObjectContext:managedContext)
-        
-        let theEntry = NSManagedObject(entity: entity!,
-                                     insertIntoManagedObjectContext: managedContext)
-
-        theEntry.setValue(entry, forKey: "contents")
-        theEntry.setValue(currentDate, forKey: "datePublished")
-        
-        do {
-            try managedContext.save()
-            entries.append(theEntry)
-        } catch let error as NSError  {
-            print("Could not save \(error), \(error.userInfo)")
-        }
-    }
+//    @IBAction func addJournal(sender: AnyObject) {
+//        let alert = UIAlertController(title: "New Entry",
+//                                      message: "Add a new journal entry",
+//                                      preferredStyle: .Alert)
+//        
+//        let saveAction = UIAlertAction(title: "Save",
+//                                       style: .Default,
+//                                       handler: { (action:UIAlertAction) -> Void in
+//                                        
+//                                        let textField = alert.textFields!.first
+//                                        self.saveEntry(textField!.text!)
+//                                        self.journalTableView.reloadData()
+//        })
+//        
+//        let cancelAction = UIAlertAction(title: "Cancel",
+//                                         style: .Default) { (action: UIAlertAction) -> Void in
+//        }
+//        
+//        alert.addTextFieldWithConfigurationHandler {
+//            (textField: UITextField) -> Void in
+//        }
+//        
+//        alert.addAction(saveAction)
+//        alert.addAction(cancelAction)
+//        
+//        presentViewController(alert,
+//                              animated: true,
+//                              completion: nil)
+//    }
+//    
+//    func saveEntry(entry: String) {
+//        let currentDate = NSDate()
+//        
+//        let appDelegate =
+//            UIApplication.sharedApplication().delegate as! AppDelegate
+//        
+//        let managedContext = appDelegate.managedObjectContext
+//        
+//        let entity =  NSEntityDescription.entityForName("JournalEntry",
+//                                                        inManagedObjectContext:managedContext)
+//        
+//        let theEntry = NSManagedObject(entity: entity!,
+//                                     insertIntoManagedObjectContext: managedContext)
+//
+//        theEntry.setValue(entry, forKey: "contents")
+//        theEntry.setValue(currentDate, forKey: "datePublished")
+//        
+//        do {
+//            try managedContext.save()
+//            entries.append(theEntry)
+//        } catch let error as NSError  {
+//            print("Could not save \(error), \(error.userInfo)")
+//        }
+//    }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         

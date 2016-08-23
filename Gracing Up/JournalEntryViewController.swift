@@ -31,7 +31,7 @@ class JournalEntryViewController: UIViewController {
         
         self.dateLabel.text = stringDate
         
-        self.textLabel.text = entry!.valueForKey("Contents") as! String
+        self.textLabel.text = entry!.valueForKey("Contents") as? String
         
         
     }
