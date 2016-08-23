@@ -314,19 +314,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dF-Jp-med">
-                                <rect key="frame" x="74" y="519" width="56" height="35.5"/>
-                                <state key="normal" title="Cancel"/>
-                                <connections>
-                                    <segue destination="ICL-Ph-pRQ" kind="show" id="NLx-QW-WcL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eh6-E8-PWF">
-                                <rect key="frame" x="10" y="519" width="46" height="36"/>
+                                <rect key="frame" x="10" y="544" width="46" height="36"/>
                                 <state key="normal" title="Save"/>
                                 <connections>
                                     <action selector="addNewEntry:" destination="FKU-wb-zJH" eventType="touchUpInside" id="wd2-Hh-Uew"/>
                                     <segue destination="ICL-Ph-pRQ" kind="show" identifier="backToJournal" id="HkE-nH-S3g"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bpm-yt-9Fb">
+                                <rect key="frame" x="20" y="383" width="322" height="162"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHe-5x-w9q">
+                                <rect key="frame" x="144" y="345" width="74" height="30"/>
+                                <state key="normal" title="Add Image"/>
+                                <connections>
+                                    <action selector="openPhotoLibrary:" destination="FKU-wb-zJH" eventType="touchUpInside" id="tCX-or-JjF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dF-Jp-med">
+                                <rect key="frame" x="74" y="544" width="56" height="35.5"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <segue destination="ICL-Ph-pRQ" kind="show" id="NLx-QW-WcL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -334,6 +344,7 @@
                     </view>
                     <connections>
                         <outlet property="entryTextView" destination="igz-zb-PT9" id="oy8-U5-Jww"/>
+                        <outlet property="imagePicked" destination="Bpm-yt-9Fb" id="T6T-Wu-EwY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t9w-rh-fvN" userLabel="First Responder" sceneMemberID="firstResponder"/>

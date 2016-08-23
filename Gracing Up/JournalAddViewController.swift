@@ -10,11 +10,14 @@ import Foundation
 import UIKit
 import CoreData
 
-class JournalAddViewController: UIViewController {
+class JournalAddViewController: UIViewController, UIImagePickerControllerDelegate,
+UINavigationControllerDelegate {
     
     @IBOutlet weak var entryTextView: UITextView!
+    @IBOutlet weak var imagePicked: UIImageView!
     
     @IBAction func addNewEntry(sender: AnyObject) {
+
         let entry = entryTextView!.text!
         
         let currentDate = NSDate()
@@ -37,6 +40,22 @@ class JournalAddViewController: UIViewController {
         }
         
         self.performSegueWithIdentifier("backToJournal", sender: nil)
+    }
+    
+    @IBAction func openPhotoLibrary(sender: AnyObject) {
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
+            var imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary;
+            imagePicker.allowsEditing = true
+            self.presentViewController(imagePicker, animated: true, completion: nil)
+        }
+    }
+    
+    // This sets the image chosen from the photo library as the image in the UIImageView
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
+        imagePicked.image = image
+        self.dismissViewControllerAnimated(true, completion: nil);
     }
     
     override func viewDidLoad() {
