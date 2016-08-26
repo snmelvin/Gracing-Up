@@ -15,6 +15,7 @@ UINavigationControllerDelegate {
     
     @IBOutlet weak var entryTextView: UITextView!
     @IBOutlet weak var imagePicked: UIImageView!
+    var imageData = NSData()
     
     @IBAction func addNewEntry(sender: AnyObject) {
 
@@ -26,12 +27,14 @@ UINavigationControllerDelegate {
         
         let managedContext = appDelegate.managedObjectContext
         
-        let entity =  NSEntityDescription.entityForName("JournalEntry", inManagedObjectContext:managedContext)
+        let entity =  NSEntityDescription.entityForName("JournalEntryWithPictures", inManagedObjectContext:managedContext)
+//        let entity =  NSEntityDescription.entityForName("JournalEntry", inManagedObjectContext:managedContext)
         
         let theEntry = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
         
-        theEntry.setValue(entry, forKey: "contents")
+        theEntry.setValue(entry, forKey: "text")
         theEntry.setValue(currentDate, forKey: "datePublished")
+        theEntry.setValue(imageData, forKey: "image")
         
         do {
             try managedContext.save()
@@ -52,9 +55,11 @@ UINavigationControllerDelegate {
         }
     }
     
+    
     // This sets the image chosen from the photo library as the image in the UIImageView
     func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
         imagePicked.image = image
+        imageData = UIImageJPEGRepresentation(image, 1)!
         self.dismissViewControllerAnimated(true, completion: nil);
     }
     
@@ -66,6 +71,14 @@ UINavigationControllerDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
     }
     
     

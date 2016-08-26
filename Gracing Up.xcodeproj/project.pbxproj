@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0741637C1D18D0A5001482FC /* MissionStatementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741637B1D18D0A5001482FC /* MissionStatementViewController.swift */; };
 		0741637E1D18D285001482FC /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741637D1D18D285001482FC /* JournalViewController.swift */; };
-		074163801D18D29D001482FC /* PhotoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741637F1D18D29D001482FC /* PhotoPageViewController.swift */; };
 		26094C351D6B8105009EB28F /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26094C341D6B8105009EB28F /* JournalEntryViewController.swift */; };
 		26349E0E1D4C7C3400BCD1CF /* Gracing Up.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26349E0C1D4C7C3400BCD1CF /* Gracing Up.xcdatamodeld */; };
 		26465D531D24FDD80039BC05 /* CivilityGoal_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D521D24FDD80039BC05 /* CivilityGoal_App_Bubble.jpg */; };
@@ -17,7 +16,6 @@
 		26465D5B1D24FE460039BC05 /* InspirationQuote_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D571D24FE460039BC05 /* InspirationQuote_App_Bubble.jpg */; };
 		26465D5C1D24FE460039BC05 /* MyJournal_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D581D24FE460039BC05 /* MyJournal_App_Bubble.jpg */; };
 		26465D5D1D24FE460039BC05 /* MyPhotos_App_Bubble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26465D591D24FE460039BC05 /* MyPhotos_App_Bubble.jpg */; };
-		2648C7AC1D6B90B400228EBF /* EntryAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2648C7AB1D6B90B400228EBF /* EntryAddViewController.swift */; };
 		264E85F11D15B11500C79DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F01D15B11500C79DA9 /* AppDelegate.swift */; };
 		264E85F31D15B11500C79DA9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F21D15B11500C79DA9 /* HomePageViewController.swift */; };
 		264E85F61D15B11500C79DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E85F41D15B11500C79DA9 /* Main.storyboard */; };
@@ -32,6 +30,10 @@
 		26A0DAB61D4DBD5E00BDA088 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0DAB51D4DBD5E00BDA088 /* DataController.swift */; };
 		26A0DABB1D4E24C900BDA088 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F21D15B11500C79DA9 /* HomePageViewController.swift */; };
 		26A0DABC1D4E24CA00BDA088 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E85F21D15B11500C79DA9 /* HomePageViewController.swift */; };
+		26B33D601D6E201E00103E9F /* Thumbnail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B33D5C1D6E201E00103E9F /* Thumbnail+CoreDataProperties.swift */; };
+		26B33D611D6E201E00103E9F /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B33D5D1D6E201E00103E9F /* Thumbnail.swift */; };
+		26B33D621D6E201E00103E9F /* JournalEntryWithPictures+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B33D5E1D6E201E00103E9F /* JournalEntryWithPictures+CoreDataProperties.swift */; };
+		26B33D631D6E201E00103E9F /* JournalEntryWithPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B33D5F1D6E201E00103E9F /* JournalEntryWithPictures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,6 @@
 /* Begin PBXFileReference section */
 		0741637B1D18D0A5001482FC /* MissionStatementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionStatementViewController.swift; sourceTree = "<group>"; };
 		0741637D1D18D285001482FC /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
-		0741637F1D18D29D001482FC /* PhotoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPageViewController.swift; sourceTree = "<group>"; };
 		26094C341D6B8105009EB28F /* JournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
 		26349E0D1D4C7C3400BCD1CF /* Gracing Up.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Gracing Up.xcdatamodel"; sourceTree = "<group>"; };
 		26465D521D24FDD80039BC05 /* CivilityGoal_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CivilityGoal_App_Bubble.jpg; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		26465D571D24FE460039BC05 /* InspirationQuote_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InspirationQuote_App_Bubble.jpg; sourceTree = "<group>"; };
 		26465D581D24FE460039BC05 /* MyJournal_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MyJournal_App_Bubble.jpg; sourceTree = "<group>"; };
 		26465D591D24FE460039BC05 /* MyPhotos_App_Bubble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MyPhotos_App_Bubble.jpg; sourceTree = "<group>"; };
-		2648C7AB1D6B90B400228EBF /* EntryAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryAddViewController.swift; sourceTree = "<group>"; };
 		264E85ED1D15B11500C79DA9 /* Gracing Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gracing Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		264E85F01D15B11500C79DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		264E85F21D15B11500C79DA9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +81,10 @@
 		264E86221D15B30D00C79DA9 /* InspirationQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspirationQuoteViewController.swift; sourceTree = "<group>"; };
 		269A865D1D6CD6FF001E3AB3 /* JournalAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalAddViewController.swift; sourceTree = "<group>"; };
 		26A0DAB51D4DBD5E00BDA088 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		26B33D5C1D6E201E00103E9F /* Thumbnail+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Thumbnail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		26B33D5D1D6E201E00103E9F /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		26B33D5E1D6E201E00103E9F /* JournalEntryWithPictures+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JournalEntryWithPictures+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		26B33D5F1D6E201E00103E9F /* JournalEntryWithPictures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryWithPictures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,10 @@
 		264E85E41D15B11500C79DA9 = {
 			isa = PBXGroup;
 			children = (
+				26B33D5C1D6E201E00103E9F /* Thumbnail+CoreDataProperties.swift */,
+				26B33D5D1D6E201E00103E9F /* Thumbnail.swift */,
+				26B33D5E1D6E201E00103E9F /* JournalEntryWithPictures+CoreDataProperties.swift */,
+				26B33D5F1D6E201E00103E9F /* JournalEntryWithPictures.swift */,
 				264E85EF1D15B11500C79DA9 /* Gracing Up */,
 				264E86041D15B11500C79DA9 /* Gracing UpTests */,
 				264E860F1D15B11600C79DA9 /* Gracing UpUITests */,
@@ -142,11 +150,9 @@
 				26A0DAB51D4DBD5E00BDA088 /* DataController.swift */,
 				264E85F41D15B11500C79DA9 /* Main.storyboard */,
 				269A865D1D6CD6FF001E3AB3 /* JournalAddViewController.swift */,
-				2648C7AB1D6B90B400228EBF /* EntryAddViewController.swift */,
 				26094C341D6B8105009EB28F /* JournalEntryViewController.swift */,
 				0741637B1D18D0A5001482FC /* MissionStatementViewController.swift */,
 				0741637D1D18D285001482FC /* JournalViewController.swift */,
-				0741637F1D18D29D001482FC /* PhotoPageViewController.swift */,
 				264E86221D15B30D00C79DA9 /* InspirationQuoteViewController.swift */,
 				264E86201D15B2A400C79DA9 /* CivilityGoalViewController.swift */,
 				26349E0C1D4C7C3400BCD1CF /* Gracing Up.xcdatamodeld */,
@@ -243,6 +249,7 @@
 				TargetAttributes = {
 					264E85EC1D15B11500C79DA9 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2UPYE5W3CP;
 					};
 					264E86001D15B11500C79DA9 = {
 						CreatedOnToolsVersion = 7.3;
@@ -313,17 +320,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				269A865E1D6CD6FF001E3AB3 /* JournalAddViewController.swift in Sources */,
-				074163801D18D29D001482FC /* PhotoPageViewController.swift in Sources */,
+				26B33D631D6E201E00103E9F /* JournalEntryWithPictures.swift in Sources */,
 				264E86231D15B30D00C79DA9 /* InspirationQuoteViewController.swift in Sources */,
+				26B33D601D6E201E00103E9F /* Thumbnail+CoreDataProperties.swift in Sources */,
 				264E86211D15B2A400C79DA9 /* CivilityGoalViewController.swift in Sources */,
 				264E85F31D15B11500C79DA9 /* HomePageViewController.swift in Sources */,
+				26B33D611D6E201E00103E9F /* Thumbnail.swift in Sources */,
 				26A0DAB61D4DBD5E00BDA088 /* DataController.swift in Sources */,
 				26349E0E1D4C7C3400BCD1CF /* Gracing Up.xcdatamodeld in Sources */,
 				26094C351D6B8105009EB28F /* JournalEntryViewController.swift in Sources */,
 				0741637C1D18D0A5001482FC /* MissionStatementViewController.swift in Sources */,
 				0741637E1D18D285001482FC /* JournalViewController.swift in Sources */,
 				264E85F11D15B11500C79DA9 /* AppDelegate.swift in Sources */,
-				2648C7AC1D6B90B400228EBF /* EntryAddViewController.swift in Sources */,
+				26B33D621D6E201E00103E9F /* JournalEntryWithPictures+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,10 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Gracing Up/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "erpr.Gracing-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -480,10 +492,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Gracing Up/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "erpr.Gracing-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

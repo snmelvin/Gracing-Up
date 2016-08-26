@@ -4,13 +4,13 @@
         <attribute name="contents" attributeType="String" syncable="YES"/>
         <attribute name="datePublished" attributeType="Date" syncable="YES"/>
     </entity>
-    <entity name="JournalEntryWithPictures" syncable="YES">
+    <entity name="JournalEntryWithPictures" representedClassName=".JournalEntryWithPictures" syncable="YES">
         <attribute name="datePublished" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="JournalEntry" positionX="-63" positionY="-18" width="128" height="75"/>
-        <element name="JournalEntryWithPictures" positionX="-63" positionY="0" width="128" height="90"/>
+        <element name="JournalEntry" positionX="-173" positionY="-342" width="128" height="73"/>
+        <element name="JournalEntryWithPictures" positionX="133" positionY="36" width="128" height="88"/>
     </elements>
 </model>
